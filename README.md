@@ -12,9 +12,9 @@ Rotten Potatoes
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. A functional Movie finder app, with a title, movie overview, rating and image
 
 ## Wireframes
-Desktop: https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
-Phone: https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Untitled?node-id=0%3A1
-Table: https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Untitled?node-id=0%3A1
+https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
+https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Untitled?node-id=0%3A1
+https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Untitled?node-id=0%3A1
 
 ## Component Hierarchy
 Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio
@@ -162,7 +162,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Actual coding | 12H | 10hrs| 12hrs | hrs |
 | Css design | 15H | 15hrs| 10hrs | hrs |
 | Finishing touches | 10H | 05hrs| 08hrs | hrs |
-| Total | 45H | 40hrs| 48hrs | hrs |
+| Total | 45H | 50hrs| 48hrs | hrs |
 
 ## SWOT Analysis
 

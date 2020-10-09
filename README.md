@@ -12,9 +12,7 @@ Rotten Potatoes
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. A functional Movie finder app, with a title, movie overview, rating and image
 
 ## Wireframes
-https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes?node-id=0%3A1
-https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes?maxRecords=3&view=Grid%20view
-Airtable APIKEY: keyudjyvPnLUzrE90
+https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
 
 ## Component Hierarchy
 Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio
@@ -144,9 +142,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Octb 08-09| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
 |Octb 10| Project Approval | Incomplete
 |Octb 10-11| Core Application Structure (App.js, index.CSS, etc.) | Incomplete
-|Octb 12| Pseudocode / actual code | Incomplete
-|Octb 13| Initial Clickable Model  | Incomplete
-|Octb 14-15| MVP | Incomplete
+|Octb 12| Working with API | Incomplete
+|Octb 13| Pseudocode / actual code  | Incomplete
+|Octb 14-15| Work on completing MVP and make sure things are working correctly | Incomplete
 |Octb 16| Presentations | Incomplete
 
 ## Timeframes
@@ -166,10 +164,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## SWOT Analysis
 
-### Strengths:
+### Strengths: I feel comfortable with JavaScript and functionalities, I also feel comfortable with CSS
 
-### Weaknesses:
+### Weaknesses: Pulling information from my Airtable API
 
-### Opportunities:
+### Opportunities: So much room to grow undeetansding the concepts and what every code is doing This is a learning process and I feel like a kid going on a school field trip.
 
-### Threats:
+
+### Threats: I have prepared really well for this project and covered most of the threats I can think of. I case of any emerging threats I am ready to improvise.

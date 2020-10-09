@@ -119,11 +119,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | 05H | hrs| hrs | hrs |
-| Working with API | 10H | hrs| hrs | hrs |
-| Actual coding | 10H | hrs| hrs | hrs |
-| Css design | 10H | hrs| hrs | hrs |
-| Finishing touches | 05H | hrs| hrs | hrs |
+| Adding Form | 05H | 05hrs| 05hrs | hrs |
+| Working with API | 10H | 10hrs| 10hrs | hrs |
+| Actual coding | 10H | 10hrs| 10hrs | hrs |
+| Css design | 10H | 10hrs| 10hrs | hrs |
+| Finishing touches | 05H | 05hrs| 05hrs | hrs |
 | Total | 40H | 40hrs| 40hrs | 40hrs |
 
 ## SWOT Analysis

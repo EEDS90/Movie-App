@@ -13,11 +13,49 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes?node-id=0%3A1
+https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes?maxRecords=3&view=Grid%20view
+Airtable APIKEY: keyudjyvPnLUzrE90
 
 ## Component Hierarchy
 Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio
 
 ## API and Data Sample
+
+https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes?maxRecords=3&view=Grid%20view
+Airtable APIKEY: keyudjyvPnLUzrE90
+
+{
+    "records": [
+        {
+            "id": "recoxkuVRl0zUuzs8",
+            "fields": {
+                "Ratings": 8.5,
+                "Comments": "Family movie, fun and adventurous. But original movie was better!",
+                "Name": "Mulan"
+            },
+            "createdTime": "2020-10-09T02:55:59.000Z"
+        },
+        {
+            "id": "rec5krso1l7HRMNL5",
+            "fields": {
+                "Ratings": 9.1,
+                "Comments": "Really good Sci-fi movie about the future, please watch!",
+                "Name": "2067"
+            },
+            "createdTime": "2020-10-09T02:55:59.000Z"
+        },
+        {
+            "id": "recQXscQ6IXjFphy1",
+            "fields": {
+                "Ratings": 8.3,
+                "Comments": "Scaryyyy movie, good for October!",
+                "Name": "Vampires Vs The Bronx"
+            },
+            "createdTime": "2020-10-09T02:55:59.000Z"
+        }
+    ],
+    "offset": "recQXscQ6IXjFphy1"
+}
 
 http://www.omdbapi.com/?i=tt3896198&apikey=4d77e518& 
 

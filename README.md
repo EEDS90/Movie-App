@@ -12,7 +12,9 @@ Rotten Potatoes
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality. A functional Movie finder app, with a title, movie overview, rating and image
 
 ## Wireframes
-https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
+Desktop: https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
+Phone: https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Untitled?node-id=0%3A1
+Table: https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Untitled?node-id=0%3A1
 
 ## Component Hierarchy
 Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio
@@ -20,9 +22,9 @@ Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-Ap
 ## API and Data Sample
 
 https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes?maxRecords=3&view=Grid%20view
-Airtable APIKEY: keyudjyvPnLUzrE90
 
-{
+
+```{
     "records": [
         {
             "id": "recoxkuVRl0zUuzs8",
@@ -54,10 +56,10 @@ Airtable APIKEY: keyudjyvPnLUzrE90
     ],
     "offset": "recQXscQ6IXjFphy1"
 }
-
+```
 http://www.omdbapi.com/?i=tt3896198&apikey=4d77e518& 
 
-{
+```{
     "Title": "Guardians of the Galaxy Vol. 2",
     "Year": "2017",
     "Rated": "PG-13",
@@ -97,7 +99,7 @@ http://www.omdbapi.com/?i=tt3896198&apikey=4d77e518&
     "Website": "N/A",
     "Response": "True"
 }
-
+```
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
@@ -155,12 +157,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | 05H | 05hrs| 05hrs | hrs |
-| Working with API | 10H | 10hrs| 10hrs | hrs |
-| Actual coding | 10H | 10hrs| 10hrs | hrs |
-| Css design | 10H | 10hrs| 10hrs | hrs |
-| Finishing touches | 05H | 05hrs| 05hrs | hrs |
-| Total | 40H | 40hrs| 40hrs | 40hrs |
+| Adding Form | 08H | 05hrs| 08hrs | hrs |
+| Working with API | 10H | 15hrs| 15hrs | hrs |
+| Actual coding | 12H | 10hrs| 12hrs | hrs |
+| Css design | 15H | 15hrs| 15hrs | hrs |
+| Finishing touches | 10H | 05hrs| 08hrs | hrs |
+| Total | 45H | 40hrs| 40hrs | 40hrs |
 
 ## SWOT Analysis
 

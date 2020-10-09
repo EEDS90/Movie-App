@@ -17,7 +17,7 @@ https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Rotten-Potatoes-Tablet?node-id
 https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Rotten-Potatoes-Mobile?node-id=0%3A1
 
 ## Component Hierarchy
-Show your component hierarchy here! ![Screen Shot 2020-10-09 at 1 23 29 PM](https://user-images.githubusercontent.com/60371995/95618528-d69a2180-0a32-11eb-89c9-0ce6f74eaf7a.png)
+Show your component hierarchy here!![Screen Shot 2020-10-09 at 1 22 18 PM](https://user-images.githubusercontent.com/60371995/95618673-195bf980-0a33-11eb-8f24-ffc6dfee62e8.png)
 
 ## API and Data Sample
 

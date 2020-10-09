@@ -15,7 +15,7 @@ Use this section to describe your final project and perhaps any links to relevan
 https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes?node-id=0%3A1
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio
 
 ## API and Data Sample
 

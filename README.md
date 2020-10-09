@@ -5,7 +5,7 @@ This app will display the top new releases available. When the use hover over th
 
 ## Project Name
 
-Rotten Potatoes
+Rotten Potatoes.
 
 ## Project Description
 

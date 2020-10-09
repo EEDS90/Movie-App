@@ -13,8 +13,8 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## Wireframes
 https://www.figma.com/file/aYNR5QAfetFQyf6H2gbOHP/Rotten-Potatoes
-https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Untitled?node-id=0%3A1
-https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Untitled?node-id=0%3A1
+https://www.figma.com/file/Nkf6CdmU2PgKXr1vfH0brE/Rotten-Potatoes-Tablet?node-id=0%3A1
+https://www.figma.com/file/tDM37IZ1nUrmQwljCrwdV4/Rotten-Potatoes-Mobile?node-id=0%3A1
 
 ## Component Hierarchy
 Show your component hierarchy here! https://app.diagrams.net/#HEEDS90%2FMovie-App%2Fmain%2FUntitled%20Diagram.drawio

@@ -10,7 +10,7 @@ function App() {
   const [fetchReviews, setFetchReviews] = useState(false);
 
   useEffect(() => {
-    const getJokes = async () => {
+    const getMovies = async () => {
       const airtableURL = `https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes`
       const response = await axios.get(airtableURL, {
         headers: {
@@ -19,7 +19,7 @@ function App() {
       });
       setReviews(response.data.records);
     };
-    getJokes();
+    getMovies();
   }, [fetchReviews]);
 
   return (

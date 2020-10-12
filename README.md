@@ -5,7 +5,7 @@ This app will display the top new releases available. When the use hover over th
 
 ## Project Name
 
-Rotten Potatoes. haha
+Rotten Potatoes. 
 
 ## Project Description
 
@@ -143,7 +143,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Octb 08-09| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
 |Octb 10| Project Approval | Incomplete
-|Octb 10-11| Core Application Structure (App.js, index.CSS, etc.) | Incomplete
+|Octb 10-11| Core Application Structure (App.js, App.CSS, etc.) | Incomplete
 |Octb 12| Working with API | Incomplete
 |Octb 13| Pseudocode / actual code  | Incomplete
 |Octb 14-15| Work on completing MVP and make sure things are working correctly | Incomplete

@@ -7,9 +7,9 @@ function CreateReview(props) {
   const [ratings, setRatings] = useState("8.5");
 
   const handleSubmit = async (e) => {
-    // prevent page reload.
+
     e.preventDefault();
-    // we have to make a fields object to holds the title, comments and ratings
+
     const fields = {
       title,
       comments,
@@ -29,7 +29,7 @@ function CreateReview(props) {
     );
 
     props.setFetchReviews(!props.fetchReviews);
-    // clear out our inputs so we can type something new in
+
     setTitle("");
     setComments("");
     setRatings("");

@@ -26,9 +26,7 @@ function Review(props) {
       <h3>{props.review.fields.title}</h3>
       <h4>{props.review.fields.comments}</h4>
       <h5>{props.review.fields.ratings}</h5>
-      <button onClick={handleDelete}>{deleted ? "Deleted" : "Movie"}</button>
-
-      />
+      <button onClick={handleDelete}>{deleted ? "Deleted" : "Movie"}</button> 
     </div>
   );
 }

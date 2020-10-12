@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import CreateReview from "./CreateReview";
 import Reviews from "./Reviews";
-import Movie from './Components/Movie';
 import './App.css';
 
 function App() {

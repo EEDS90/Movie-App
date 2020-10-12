@@ -13,7 +13,7 @@ function CreateReview(props) {
     const fields = {
       title,
       comments,
-      ratings,
+      ratings: parseFloat(ratings),
     }; 
 
 

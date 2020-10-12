@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import CreateReview from "./CreateReview";
-import Review from "./Review";
+import Reviews from "./Reviews";
 import Movie from './Components/Movie';
 import './App.css';
 
@@ -24,10 +24,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Await For It</h1>
+      <h1>Rotten Potatoes</h1>
       {reviews.map((review) => (
         
-        <Review
+        <Reviews
           key={review.id}
           review={review}
           fetchReviews={fetchReviews}

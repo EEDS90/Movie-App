@@ -3,7 +3,7 @@ import axios from "axios";
 
 function CreateReview(props) {
   const [title, setTitle] = useState("Mulan");
-  const [comment, setComments] = useState("Family movie, fun and adventurous. But original movie was better!");
+  const [comments, setComments] = useState("Family movie, fun and adventurous. But original movie was better!");
   const [ratings, setRatings] = useState("8.5");
 
   const handleSubmit = async (e) => {
@@ -52,15 +52,15 @@ function CreateReview(props) {
         type="text"
         placeholder="comments"
         value={comments}
-        onChange={(e) => setText(e.target.value)}
+        onChange={(e) => setComments(e.target.value)}
       />
-      <label htmlFor="ratings">Author:</label>
+      <label htmlFor="ratings">Ratings:</label>
       <input
         name="ratings"
         type="text"
         placeholder="ratings"
         value={ratings}
-        onChange={(e) => setAuthor(e.target.value)}
+        onChange={(e) => setRatings(e.target.value)}
       />
       <button type="submit">Search</button>
     </form>

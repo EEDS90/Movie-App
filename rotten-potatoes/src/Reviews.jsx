@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import UpdateReview from "./UpdateReview";
+
 
 function Review(props) {
   const [deleted, setDeleted] = useState(false);
@@ -26,11 +26,8 @@ function Review(props) {
       <h3>{props.review.fields.title}</h3>
       <h4>{props.review.fields.comments}</h4>
       <h5>{props.review.fields.ratings}</h5>
-      <button onClick={handleDelete}>{deleted ? "YEETED" : "YEET"}</button>
-      <UpdateReview
-        review={props.review}
-        fetchReviews={props.fetchReviews}
-        setFetchReviews={props.setFetchReviews}
+      <button onClick={handleDelete}>{deleted ? "Deleted" : "Select"}</button>
+
       />
     </div>
   );

@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+API
+Airtable: "https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes?maxRecords=3&view=Grid%20view"
+
+Movie: "http://www.omdbapi.com/?i=tt3896198&apikey=4d77e518&"

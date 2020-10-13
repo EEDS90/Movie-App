@@ -30,31 +30,33 @@ function App() {
       <div className="header">
       <header>
         <h1>Rotten Potatoes</h1>
-        <Link to="/"> Home </Link>
+          <Link to="/"> Home </Link>
+          <Link to="/new"> Review</Link>
       </header>
       </div>
       <div className="body">
-         <body>
            <Route exact path="/">
            <Homepage reviews={reviews} />
            </Route>
-           <Route path="/bird/:name">
+           <Route path="/reviews/:id">
              <ShowPage reviews={reviews}/>
-           </Route>
-         </body>
+        </Route>
+        <Route path="/new">
+        <CreateReview
+        fetchReviews={fetchReviews}
+        setFetchReviews={setFetchReviews}
+      />
+        </Route>
        </div>
-      {reviews.map((review) => (
+      {/* {reviews.map((review) => (
         <Reviews
           key={review.id}
           review={review}
           fetchReviews={fetchReviews}
           setFetchReviews={setFetchReviews}
 />
-      ))}
-      <CreateReview
-        fetchReviews={fetchReviews}
-        setFetchReviews={setFetchReviews}
-      />
+      ))} */}
+      
     </div>
   );
 }

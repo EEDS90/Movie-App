@@ -5,16 +5,14 @@ function ShowPage(props) {
   const params = useParams()
   console.log(params)
 
-  const movie = props.movies.find((r) => r.name === params.name)
-  console.log(movie)
+  const review = props.reviews.find((r) => r.id === params.id)
+  
 return (
     <div>
-       <img src={movie.image} className="showmovieimage"/>
-       <h2>{movie.name}</h2>
-       <h3>({movie.comments})</h3>
-       <h4 className="conservation-line">Conservation Status</h4>
-       <h5 className="description">{movie.conservationStatus}</h5>
-       <a href={movie.homepage} className="button">Read More</a>
+
+       <h2>{review.fields.title}</h2>
+       <h3>{review.fields.ratings}</h3>
+       <h4>{review.fields.comments}</h4>
      </div>
    )
  }

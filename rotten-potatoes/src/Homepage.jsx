@@ -6,8 +6,8 @@ function Homepage(props) {
      <div>
      <h3 className="reviewstitle">Reviews</h3>
      <div className="reviewcomments">
-     {props.reviews.map(reviews => 
-       <Link to={`/reviews/${reviews.name}`}> <img src={reviews.image}/></Link>
+     {props.reviews.map(review => 
+       <Link to={`/reviews/${review.id}`}>{review.fields.title}</Link>
 )} 
      </div>
      </div>

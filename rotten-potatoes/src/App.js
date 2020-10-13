@@ -5,12 +5,22 @@ import ShowPage from './ShowPage'
 import Homepage from './Homepage'
 import CreateReview from "./CreateReview";
 import Reviews from "./Reviews";
+import Navbar from './Navbar';
+import Search from './Search';
 import './App.css';
 
 
 function App() {
   const [reviews, setReviews] = useState([]);
   const [fetchReviews, setFetchReviews] = useState(false);
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    // Make API call for TMDB 
+    // Save the movies to setMovies 
+  }, [])
+  
+  // create the search componet and pass movies as prop
 
   useEffect(() => {
     const getMovies = async () => {

@@ -5,7 +5,7 @@ function Homepage(props) {
    return (
      <div>
      <h3 className="reviewstitle">Reviews</h3>
-     <div className="reviewcomments">
+     <div className="review-comments">
      {props.reviews.map(review => 
        <Link to={`/reviews/${review.id}`}>{review.fields.title}</Link>
 )} 

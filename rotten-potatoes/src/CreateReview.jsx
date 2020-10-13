@@ -42,7 +42,7 @@ function CreateReview(props) {
       <input
         name="title"
         type="text"
-        placeholder="title"
+        placeholder="Search"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
@@ -50,7 +50,7 @@ function CreateReview(props) {
       <input
         name="comments"
         type="text"
-        placeholder="comments"
+        placeholder="Search"
         value={comments}
         onChange={(e) => setComments(e.target.value)}
       />
@@ -58,7 +58,7 @@ function CreateReview(props) {
       <input
         name="ratings"
         type="text"
-        placeholder="ratings"
+        placeholder="Search"
         value={ratings}
         onChange={(e) => setRatings(e.target.value)}
       />

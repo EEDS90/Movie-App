@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function CreateReview(props) {
-  const [title, setTitle] = useState("Mulan");
-  const [comments, setComments] = useState("Family movie, fun and adventurous. But original movie was better!");
-  const [ratings, setRatings] = useState("8.5");
+  const [title, setTitle] = useState("");
+  const [comments, setComments] = useState("");
+  const [ratings, setRatings] = useState("");
 
   const handleSubmit = async (e) => {
-
+    
     e.preventDefault();
 
     const fields = {

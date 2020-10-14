@@ -5,6 +5,7 @@ function Navbar() {
     <header>
       <h1>Rotten Potatoes Reviews</h1>
       <nav>
+      
       </nav>
     </header>
   )

@@ -1,12 +1,12 @@
 .App {
-  background-color: white;
+  background-color: yellow;
   font-family: Arial, Helvetica, sans-serif;  
 }
 
 h1 {
-  color: orange;
-  font-size: 45px;
-  letter-spacing: 4px;
+  color: Brown;
+  font-size: 35px;
+  letter-spacing: 2px;
   margin: 0 auto;
   text-align: center;
 }
@@ -17,7 +17,9 @@ flex-direction: column;
 }
 
 .poster {
-  width: 200px;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
   
 }
 

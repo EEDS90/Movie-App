@@ -49,7 +49,8 @@ function App() {
            <Link to="/new"> Review</Link>
           </nav>
         </header>
-    </div>
+      </div>
+      
       <div className="body">
         <Route exact path="/">
           <Homepage reviews={reviews} />
@@ -57,7 +58,7 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
-        <Route path="/suggestions">
+      
         {movies.map((movie) => (
           <div key={movie.id}>
             <img
@@ -71,7 +72,7 @@ function App() {
             </p>
       </div>
         ))}
-        </Route>
+        
 
         <Route path="/new">
           <CreateReview
@@ -79,6 +80,7 @@ function App() {
             setFetchReviews={setFetchReviews}
           />
         </Route>
+
         <Route path="/full-reviews">
           {reviews.map((review) => (
             <Reviews

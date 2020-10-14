@@ -13,18 +13,18 @@ function App() {
   const [reviews, setReviews] = useState([]);
   const [fetchReviews, setFetchReviews] = useState(false);
   const [movies, setMovies] = useState([]);
+  const posterURL = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
     const getTitle = async () => {
-      const movieURL = `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`
+      const movieURL = `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`;
       const response = await axios.get(movieURL);
-      setMovies(response.data.results)
+      setMovies(response.data.results);
     };
     getTitle();
-    
   }, []);
-  console.log(movies)
-  
+  console.log(movies);
+
   useEffect(() => {
     const getMovies = async () => {
       const airtableURL = `https://api.airtable.com/v0/appYbfUec0AUlTgXA/Rotten%20Potatoes`;
@@ -44,24 +44,12 @@ function App() {
       <div className="header">
         <header>
           <h1>Rotten Potatoes</h1>
-          <Link to="/"> Home </Link>
-          <Link to="/new"> Review</Link>
+          <nav>
+           <Link to="/"> Home </Link>
+           <Link to="/new"> Review</Link>
+          </nav>
         </header>
-      </div>
-      <div>
-        { 
-          moives.map((e) => (
-            <div key={e.id}>
-              <img
-                src={}
-                alt={}
-              
-              />
-              
-                
-            </div>
-          }
-      </div>
+    </div>
       <div className="body">
         <Route exact path="/">
           <Homepage reviews={reviews} />
@@ -69,21 +57,39 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
+        <Route path="/suggestions">
+        {movies.map((movie) => (
+          <div key={movie.id}>
+            <img
+              className="poster"
+              src={posterURL + movie.poster_path}
+              alt={"image" + movie.title}
+            />
+            <br />
+            <p className="title">
+              {movie.title} <br />
+            </p>
+      </div>
+        ))}
+        </Route>
+
         <Route path="/new">
           <CreateReview
             fetchReviews={fetchReviews}
             setFetchReviews={setFetchReviews}
           />
         </Route>
+        <Route path="/full-reviews">
+          {reviews.map((review) => (
+            <Reviews
+              key={review.id}
+              review={review}
+              fetchReviews={fetchReviews}
+              setFetchReviews={setFetchReviews}
+            />
+          ))}
+        </Route>
       </div>
-      {/* {reviews.map((review) => (
-        <Reviews
-          key={review.id}
-          review={review}
-          fetchReviews={fetchReviews}
-          setFetchReviews={setFetchReviews}
-/>
-      ))} */}
     </div>
   );
 }

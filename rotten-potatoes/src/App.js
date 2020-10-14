@@ -58,7 +58,7 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
-      
+       <Navbar />
         {movies.map((movie) => (
           <div key={movie.id}>
             <img
@@ -73,7 +73,6 @@ function App() {
       </div>
         ))}
         
-
         <Route path="/new">
           <CreateReview
             fetchReviews={fetchReviews}

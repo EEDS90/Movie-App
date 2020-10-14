@@ -62,7 +62,7 @@ function CreateReview(props) {
         value={ratings}
         onChange={(e) => setRatings(e.target.value)}
       />
-      <button type="submit">Search</button>
+      <button type="submit">Submit</button>
     </form>
   );
 }

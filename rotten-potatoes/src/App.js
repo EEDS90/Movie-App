@@ -6,7 +6,8 @@ import Homepage from "./Homepage";
 import CreateReview from "./CreateReview";
 import Reviews from "./Reviews";
 import Navbar from "./Navbar";
-// import Search from './Search';
+import Header from "./Header";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -42,13 +43,11 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <header>
-          <h1>Rotten Potatoes</h1>
+        <Header />
           <nav>
            <Link to="/"> Home </Link>
            <Link to="/new"> Review</Link>
           </nav>
-        </header>
       </div>
       
       <div className="body">
@@ -60,19 +59,21 @@ function App() {
         </Route>
        <Navbar />
         {movies.map((movie) => (
+          
           <div key={movie.id}>
+            <div className="movie-container">
             <img
               className="poster"
               src={posterURL + movie.poster_path}
               alt={"image" + movie.title}
             />
             <br />
-            <p className="title">
-              {movie.title} <br />
-            </p>
+            <p className="title">{movie.title}
+                <br /></p>
+          </div>    
       </div>
         ))}
-        
+
         <Route path="/new">
           <CreateReview
             fetchReviews={fetchReviews}
@@ -90,6 +91,9 @@ function App() {
             />
           ))}
         </Route>
+
+       <Footer />
+        
       </div>
     </div>
   );

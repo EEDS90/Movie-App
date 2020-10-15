@@ -44,12 +44,12 @@ function App() {
     <div className="App">
       <div className="header">
         <Header />
-          <nav>
-           <Link to="/"> Home </Link>
-           <Link to="/new"> Review</Link>
-          </nav>
+        <nav>
+          <Link to="/"> Home </Link>
+          <Link to="/new"> Review</Link>
+        </nav>
       </div>
-      
+
       <div className="body">
         <Route exact path="/">
           <Homepage reviews={reviews} />
@@ -57,24 +57,25 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
-       <Navbar />
+        <Navbar />
+        <div className="all-movies">
         {movies.map((movie) => (
-      <div key={movie.id}>
+          <div key={movie.id}>
             <div className="movie-container">
-            <img
-              className="image"
-              src={posterURL + movie.poster_path}
-              alt={"image" + movie.overview}
-               
-            />
-            <br />
-            <p className="overview">{movie.overview}
-                <br /></p>
-              
-          </div>    
-      </div>
+              <img
+                className="image"
+                src={posterURL + movie.poster_path}
+                alt={"image" + movie.overview}
+              />
+              <br />
+              <p className="overview">
+                {movie.overview}
+                <br />
+              </p>
+            </div>
+          </div>
         ))}
-
+       </div> 
         <Route path="/new">
           <CreateReview
             fetchReviews={fetchReviews}
@@ -93,8 +94,7 @@ function App() {
           ))}
         </Route>
 
-       <Footer />
-        
+        <Footer />
       </div>
     </div>
   );

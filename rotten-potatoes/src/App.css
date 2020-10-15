@@ -17,29 +17,37 @@ h1 {
   margin: 0 auto;
 }
 .movie-container {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
-  /* background-color: #543f12; */
-  
+  background-color: #543f12;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  width: 300px;
 }
 
 .image {
-  background-color: #543f12;
+  display: flex;
+  
   max-width: 100%;
   width: 200px;
   
 }
 
+.overview {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(100%);
+}
 
-.title {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 200px;
-  color: red;
- 
-  flex-wrap: wrap;
-  justify-content: space-between; 
-  letter-spacing: 2px;
-  
+.movie-container:hover .overview {
+  transform: translateX(0%);
 }
 
 nav {

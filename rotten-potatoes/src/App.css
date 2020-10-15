@@ -4,7 +4,7 @@
 }
 
 h1 {
-  color: Brown;
+  color: #543f12;
   font-size: 35px;
   letter-spacing: 2px;
   margin: 0 auto;
@@ -14,31 +14,39 @@ h1 {
 .review-comments {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+.movie-container {
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* background-color: #543f12; */
+  
 }
 
-.movie {
+.image {
+  background-color: #543f12;
   max-width: 100%;
   width: 200px;
   
 }
 
-.movie-container {
-  display: inline-block;
-  display: flex;
-  color: red;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .title {
+  font-family: Arial, Helvetica, sans-serif;
   width: 200px;
-  display: flex;
+  color: red;
+ 
   flex-wrap: wrap;
   justify-content: space-between; 
+  letter-spacing: 2px;
+  
 }
 
 nav {
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
 }

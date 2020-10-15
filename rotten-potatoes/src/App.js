@@ -62,14 +62,18 @@ function App() {
       <div key={movie.id}>
             <div className="movie-container">
             <img
-              className="movie"
+              className="image"
               src={posterURL + movie.poster_path}
               alt={"image" + movie.title}
+              ratings={"title" + movie.overview}  
             />
             {/* <br /> */}
             <p className="title">{movie.title}
-                  <br /></p>
-                
+                <br /></p>
+              {/* <div className="movie-overview">
+                <h2>Overview:</h2>
+                <p>{overview}</p>
+             </div>    */}
           </div>    
       </div>
         ))}

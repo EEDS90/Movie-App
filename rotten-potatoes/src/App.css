@@ -1,6 +1,8 @@
 .App {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 h1 {
@@ -19,15 +21,14 @@ h1 {
 .movie-container {
   display: flex;
   flex-wrap: wrap;
-
-  /* background-color: #543f12; */
   border-radius: 2px;
-  /* box-shadow: 1px 1px 2px; */
+  box-shadow: 4px 4px 6px;
   width: 200px;
   overflow: hidden;
   position: relative;
   margin: 1rem;
   width: 200px;
+  align-items: center;
 }
 
 .image {
@@ -47,6 +48,7 @@ h1 {
   transition: all 0.2s;
   max-height: 200px;
   overflow-y: scroll;
+  align-items: center;
 }
 
 .movie-container:hover .overview {
@@ -66,4 +68,8 @@ nav {
   width: 90vw;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+
 }
+

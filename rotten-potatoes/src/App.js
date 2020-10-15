@@ -44,10 +44,12 @@ function App() {
     <div className="App">
       <div className="header">
         <Header />
+      <div className="Home-Review">
         <nav>
           <Link to="/"> Home </Link>
-          <Link to="/new"> Review</Link>
+            <Link to="/new"> Review</Link>  
         </nav>
+        </div>
       </div>
 
       <div className="body">

@@ -59,17 +59,17 @@ function App() {
         </Route>
        <Navbar />
         {movies.map((movie) => (
-          
-          <div key={movie.id}>
+      <div key={movie.id}>
             <div className="movie-container">
             <img
-              className="poster"
+              className="movie"
               src={posterURL + movie.poster_path}
               alt={"image" + movie.title}
             />
-            <br />
+            {/* <br /> */}
             <p className="title">{movie.title}
-                <br /></p>
+                  <br /></p>
+                
           </div>    
       </div>
         ))}

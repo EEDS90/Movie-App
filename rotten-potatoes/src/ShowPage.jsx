@@ -9,7 +9,7 @@ function ShowPage(props) {
 
   return (
     <div>
-      {/* <div className="title">
+      <div className="title">
         <h2>{review.fields.title}</h2>
       </div>
       <div className="comments">
@@ -17,7 +17,7 @@ function ShowPage(props) {
       </div>
       <div className="ratings">
         <h5>{review.fields.ratings}</h5>
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -59,7 +59,9 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
-        <Navbar />
+        
+          <Navbar />
+        
         <div className="all-movies">
         {movies.map((movie) => (
           <div key={movie.id}>

@@ -12,6 +12,7 @@
   letter-spacing: 4px;
   margin-top: 20px;
   background-color: black;
+  text-align: center;
   float: right;
   font-weight: bold;
 }
@@ -47,6 +48,15 @@
   border-radius: 10px;
   background: transparent;
   border: 4px  solid black;
+}
+
+.Navbar {
+  font-weight: bold;
+  color: white;
+  /* text-align: center; */
+  letter-spacing: 4px;
+  margin-top: 20px;
+  background-color: black;
 }
 
 .movie-container {

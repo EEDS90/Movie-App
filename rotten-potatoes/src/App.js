@@ -95,8 +95,9 @@ function App() {
             />
           ))}
         </Route>
-
-        <Footer />
+      <div className="footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );

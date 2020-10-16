@@ -44,13 +44,15 @@ function App() {
     <div className="App">
       <div className="header">
         <Header />
-      <div className="Home-Review">
-        <nav>
-          <Link to="/"> Home </Link>
+         <nav>
+          <div className="Home"> 
+            <Link to="/"> Home </Link>
+          </div> 
+          <div className="Review"> 
             <Link to="/new"> Create a Review</Link>  
+          </div> 
         </nav>
-        </div>
-      </div>
+    </div>
 
       <div className="body">
         <Route exact path="/">
@@ -59,7 +61,6 @@ function App() {
         <Route path="/reviews/:id">
           <ShowPage reviews={reviews} />
         </Route>
-        
           <Navbar />
         
         <div className="all-movies">

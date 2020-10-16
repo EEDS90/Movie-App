@@ -77,14 +77,15 @@ function App() {
             </div>
           </div>
         ))}
-       </div> 
+        </div> 
+        <div className="create-review">
         <Route path="/new">
           <CreateReview
             fetchReviews={fetchReviews}
             setFetchReviews={setFetchReviews}
           />
         </Route>
-
+        </div>
         <Route path="/full-reviews">
           {reviews.map((review) => (
             <Reviews
@@ -94,7 +95,8 @@ function App() {
               setFetchReviews={setFetchReviews}
             />
           ))}
-        </Route>
+          </Route>
+        
       <div className="footer">
           <Footer />
         </div>

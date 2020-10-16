@@ -47,6 +47,7 @@
 .review-comments a {
   display: flex;
   color: black;
+  background-color: transparent;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   text-transform: uppercase;

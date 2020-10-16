@@ -1,5 +1,5 @@
 .App {
-  background-color: red;
+  background-color: #654123;
   font-family: Arial, Helvetica, sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -8,7 +8,7 @@
 
 .header {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 4px;
   margin-top: 20px;
   background-color: black;
@@ -18,14 +18,18 @@
 }
 
 .Home-Review a {
-  float: right;
   text-decoration: none;
   color: white;
   letter-spacing: 4px;
   border-radius: 10px;
   background: transparent;
   border: 4px  solid white;
-  
+  float: right;
+  text-transform: uppercase;
+}
+
+.Home-Review a:hover {
+  color:#654123;
 }
 
 .review-comments a {
@@ -42,6 +46,11 @@
   letter-spacing: 4px;
   border: 1px  solid white
 }
+
+.review-comments a:hover {
+  color:#654123;
+}
+
 .create-review {
   text-align: center;
   font-weight: bold;
@@ -53,17 +62,17 @@
 .Navbar {
   font-weight: bold;
   color: white;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 4px;
-  margin-top: 20px;
   background-color: black;
+
 }
 
 .movie-container {
   display: flex;
   flex-wrap: wrap;
   border-radius: 2px;
-  box-shadow: 4px 4px 6px;
+  box-shadow: 4px 4px 6px 0;
   width: 200px;
   overflow: hidden;
   position: relative;
@@ -86,7 +95,7 @@
   left: 0;
   right: 0;
   transform: translateY(130%);
-  transition: all 0.2s;
+  transition: all 0.3s;
   max-height: 200px;
   overflow-y: scroll;
   align-items: center;
@@ -111,6 +120,8 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
+  box-shadow: -4px 4px 6px 0;
+
 }
 
 .footer {
